@@ -16,12 +16,16 @@ USAGE
 4. Make sure your PC is switched on (set it to not sleep or hibernate!) at the time of the booking.
 5. Check if the booking has been made when you are free
 
+FAILED BOOKINGS?
+There are a number of reasons why a booking could fail.
+1. The computer was not on at the time of booking, or Option 4 in the main menu was not selected.
+2. None of the time slots specified was available.
+    2.1 Someone booked the slot faster.
+    2.2 The slot was pre-booked, and thus never available in the first place.
+A booking could have succeeded although some time slots were not booked.
+
 THINGS TO NOTE
 1. For more competitive slots (e.g. Stadium Field), add those bookings first so that they will be booked first.
 2. For a recurring booking, if you miss the booking for one week (i.e. you did not leave the program open at the time of booking), the recurring booking will be erased.
 3. Currently unable to select options in the subvenue dropdown list :(
 4. If CAPTCHA appears, this program will also unfortunately fail :(
-
-
-Possible things that might screw it up:
-1. if only some of the slots are available (not all slots could be added to cart), will there be a 'added to cart' message still?

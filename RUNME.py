@@ -206,7 +206,7 @@ while True:
     print('4. Check pending jobs / start waiting to make the booking')
     print('5. Change login info')
     print('6. Exit')
-    response = user_input(['1','2', '3', '4', '5'])
+    response = user_input(['1','2', '3', '4', '5', '6'])
     if response == '1' or response == "2":
         variables = []
         if response == "2":

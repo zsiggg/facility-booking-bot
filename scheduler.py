@@ -67,8 +67,6 @@ def check_pending_bookings(scheduler):
         jobs_after_tmr = []
         i = 1
         for job in jobs:
-            # checking what the trigger looks like for interval/date
-            print(job.trigger)
             if job.next_run_time.date() <= (datetime.today() + timedelta(days=1)).date():
                 jobs_tmr.append(job)
                 print_job(job, i)
