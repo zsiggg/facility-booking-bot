@@ -1,0 +1,27 @@
+SETUP
+1. Check your Chrome version by clicking the 3 dots at the top right in Chrome, Help, then About Google Chrome. ™Download the appropriate web driver for Chrome from https://chromedriver.chromium.org/downloads.
+    1.1 Move the chromedriver.exe file to the same folder as this one.
+2. Go to https://www.python.org/downloads/ to download Python (if you do not have Python installed yet).
+3. Go to the folder that contains the program files.
+    2.1 Mac: Follow the instructions on https://www.maketecheasier.com/launch-terminal-current-folder-mac/ to open Terminal
+    2.2 Windows: Type 'cmd' on the address bar of the Windows Explorer window of the current folder.
+4. In Terminal (Mac) or CMD (Windows), type 'pip install -r requirements.txt'.
+    4.1 For Windows, you might need to type 'py -m pip install -r requirements.txt' instead.
+
+USAGE
+1. Follow Step 3 of SETUP to open CMD or Terminal in the current folder.
+2. Type 'python3 RUNME.py' or 'py RUNME.py' and follow the instructions to add a new booking. (Use Ctrl+Z to exit the program any time)
+    a. Click 2. for add a weekly recurring booking!
+3. Before the time of the booking, click 4. in RUNME.py to check that the details of the upcoming booking are correct, then click 1. to start waiting. 
+4. Make sure your PC is switched on (set it to not sleep or hibernate!) at the time of the booking.
+5. Check if the booking has been made when you are free
+
+THINGS TO NOTE
+1. For more competitive slots (e.g. Stadium Field), add those bookings first so that they will be booked first.
+2. For a recurring booking, if you miss the booking for one week (i.e. you did not leave the program open at the time of booking), the recurring booking will be erased.
+3. Currently unable to select options in the subvenue dropdown list :(
+4. If CAPTCHA appears, this program will also unfortunately fail :(
+
+
+Possible things that might screw it up:
+1. if only some of the slots are available (not all slots could be added to cart), will there be a 'added to cart' message still?
