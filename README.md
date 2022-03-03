@@ -1,7 +1,7 @@
 
 # Facility Booking Bot
 
-A Python script built to automatically book NUS facilities according to user's choices beforehand.
+A Python script built to automatically book NUS facilities according to user's choices beforehand. You must have an NUS account to see this bot in action.
 
 Built with the purpose of:
 
